@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/img_story_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bromo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ichigo"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_story_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Username"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:maxLines="1"
+        android:ellipsize="end" />
+</LinearLayout>
